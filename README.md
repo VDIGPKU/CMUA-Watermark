@@ -27,15 +27,16 @@ Figure 2. The quantitative results of CMUA-Watermark.
 
 ### Installation
 
-1. (option1)install the lib (recommend)
+1. (option1) install the lib by pip (recommend)
 
     `
     pip install -r requirements.txt
     `
 
     
-2. (option2) We also prepare conda environment for you: **link**. You can donwload it and unzip in your '/anaconda3/envs/'
+2. (option2) We also prepare conda environment for you (if you use CUDA 10.0 and conda 4.8.3) : https://disk.pku.edu.cn:443/link/D613E493EE641184EB52C0C78DD846C8 . You can donwload it and unzip in your '/anaconda3/envs/'. 
 
+### Inference
 
 ### Training （attacking multiple deepfake models）
 
