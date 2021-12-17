@@ -1,0 +1,6 @@
+{
+    "star_factor":{"_type":"uniform", "_value":[0, 10]},
+    "aggan_factor":{"_type":"uniform", "_value":[0, 10]},
+    "att_factor": {"_type":"uniform", "_value":[0, 10]},
+    "HiSD_factor": {"_type":"uniform", "_value":[0, 10]}
+}
