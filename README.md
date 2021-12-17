@@ -27,14 +27,52 @@ Figure 2. The quantitative results of CMUA-Watermark.
 
 ### Installation
 
-1. (option1) install the lib by pip (recommend)
+1. Prepare the Environment
 
-    `
-    pip install -r requirements.txt
-    `
+    - (option1) install the lib by pip (recommend)
 
+        `
+        pip install -r requirements.txt
+        `
+
+        
+    - (option2) We also prepare conda environment for you (if you use CUDA 10.0 and conda 4.8.3) : https://disk.pku.edu.cn:443/link/D613E493EE641184EB52C0C78DD846C8 . You can donwload it and unzip in your '/anaconda3/envs/'. 
+
+2. Prepare the Datasets
+
+    - download the CelebA datasets: 
+        ```
+        cd stargan
+        bash download.sh celeba
+        ```
+        make sure your floder (e.g. celeba_data) has **img_align_celeba** and **list_attr_celeba.txt**.
+    - create the link
+        ```
+        ln -s your_path_to_celeba_data ./data
+        ```
+
+3. Prepare the Model Weights
+
+    For your convenient usage, we prepare the weights download link in PKU disk: https://disk.pku.edu.cn:443/link/D04A3ED9D22694D81924109D0E4EACA8.
     
-2. (option2) We also prepare conda environment for you (if you use CUDA 10.0 and conda 4.8.3) : https://disk.pku.edu.cn:443/link/D613E493EE641184EB52C0C78DD846C8 . You can donwload it and unzip in your '/anaconda3/envs/'. 
+    You can first download the **weights**. Then move the weight files to different floders of different models:
+
+    ``` bash
+    cd CMUA-Watermark
+    # make sure **weights** in this path.
+    # If the paths bellow are not exist, please create the path (e.g., mkdir -p ./stargan/stargan_celeba_256/models).
+    mv ./weights/stargan/* ./stargan/stargan_celeba_256/models
+    mv ./weights/AttentionGAN/* ./AttentionGAN/AttentionGAN_v1_multi/checkpoints/celeba_256_pretrained
+    mv ./weights/HiSD/* ./HiSD
+    mv ./weights/AttGAN/* ./AttGAN/output/256_shortcut1_inject0_none/checkpoint
+    ```
+
+    **ATTENTION!** The copyright of these weight files belongs to their owners. **You needs authorization for commerce, please contact to their owners!** 
+
+4. Prepare the CMUA-Watermark (only for inference)
+    
+    We prepare a CMUA-Watermark for you to test its performance: https://disk.pku.edu.cn:443/link/4FDBB772471746EC0DC397B520005D3E.
+    
 
 ### Inference
 
