@@ -81,7 +81,7 @@ Figure 2. The quantitative results of CMUA-Watermark.
 python3 universal_attack_inference.py
 
 # inference with your own image (one image)
-python3 universal_attack_inference_one_image.py -img your_image_path
+python3 universal_attack_inference_one_image.py ./demo_input.png # you can change the path with your own image
 ```
 
 ### Training （attacking multiple deepfake models）
