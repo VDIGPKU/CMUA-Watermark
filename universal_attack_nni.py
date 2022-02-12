@@ -56,7 +56,7 @@ def search():
     args_attack = parse()
     tuner_params = nni.get_next_parameter()
     args_attack.attacks.star_factor = float(tuner_params['star_factor'])
-    args_attack.attacks.aggan_factor = float(tuner_params['aggan_factor'])
+    args_attack.attacks.attention_factor = float(tuner_params['aggan_factor'])
     args_attack.attacks.att_factor = float(tuner_params['att_factor'])
     args_attack.attacks.HiSD_factor = float(tuner_params['HiSD_factor'])
     print(args_attack)
