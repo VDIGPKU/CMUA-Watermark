@@ -35,9 +35,8 @@ Figure 2. The quantitative results of CMUA-Watermark.
         pip install -r requirements.txt
         `
 
-        
     - (option2) We also prepare conda environment for you (if you use CUDA 10.0 and conda 4.8.3) : https://disk.pku.edu.cn:443/link/D613E493EE641184EB52C0C78DD846C8 . You can donwload it and unzip in your '/anaconda3/envs/'. 
-
+    
 2. Prepare the Datasets
 
     - download the CelebA datasets: 
@@ -70,7 +69,7 @@ Figure 2. The quantitative results of CMUA-Watermark.
     **ATTENTION!** The copyright of these weight files belongs to their owners. **You needs authorization for commerce, please contact to their owners!** 
 
 4. Prepare the CMUA-Watermark (only for inference)
-    
+   
     We prepare a CMUA-Watermark for you to test its performance: https://disk.pku.edu.cn:443/link/4FDBB772471746EC0DC397B520005D3E.
     
 
@@ -111,13 +110,14 @@ python universal_attack.py
 If you use our code / perturbation, please consider to cite our paper: CMUA-Watermark: A Cross-Model Universal Adversarial Watermark for Combating Deepfakes.
 
 ```
-@misc{huang2021cmuawatermark,
-      title={CMUA-Watermark: A Cross-Model Universal Adversarial Watermark for Combating Deepfakes}, 
-      author={Hao Huang and Yongtao Wang and Zhaoyu Chen and Yuze Zhang and Yuheng Li and Zhi Tang and Wei Chu and Jingdong Chen and Weisi Lin and Kai-Kuang Ma},
-      year={2021},
-      eprint={2105.10872},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{huang2022cmua,
+  title={Cmua-watermark: A cross-model universal adversarial watermark for combating deepfakes},
+  author={Huang, Hao and Wang, Yongtao and Chen, Zhaoyu and Zhang, Yuze and Li, Yuheng and Tang, Zhi and Chu, Wei and Chen, Jingdong and Lin, Weisi and Ma, Kai-Kuang},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={36},
+  number={1},
+  pages={989--997},
+  year={2022}
 }
 ```
 
