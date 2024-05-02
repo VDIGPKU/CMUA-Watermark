@@ -52,8 +52,10 @@ Figure 2. The quantitative results of CMUA-Watermark.
 
 3. Prepare the Model Weights
 
-    For your convenient usage, we prepare the weights download link in PKU disk: https://disk.pku.edu.cn:443/link/D04A3ED9D22694D81924109D0E4EACA8.
-    
+    For your convenient usage, we prepare the weights download link in Baiduyun disk: https://pan.baidu.com/s/1GKMob15-xXpZFZTFp6fxqQ?pwd=j662 
+
+    Extract code: j662
+   
     You can first download the **weights**. Then move the weight files to different floders of different models:
 
     ``` bash
@@ -68,9 +70,11 @@ Figure 2. The quantitative results of CMUA-Watermark.
 
     **ATTENTION!** The copyright of these weight files belongs to their owners. **You needs authorization for commerce, please contact to their owners!** 
 
-4. Prepare the CMUA-Watermark (only for inference)
+5. Prepare the CMUA-Watermark (only for inference)
    
-    We prepare a CMUA-Watermark for you to test its performance: https://disk.pku.edu.cn:443/link/4FDBB772471746EC0DC397B520005D3E.
+    We prepare a CMUA-Watermark for you to test its performance in Baiduyun disk: https://pan.baidu.com/s/1GKMob15-xXpZFZTFp6fxqQ?pwd=j662 
+
+    Extract code: j662
     
 
 ### Inference
