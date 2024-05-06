@@ -29,14 +29,12 @@ Figure 2. The quantitative results of CMUA-Watermark.
 
 1. Prepare the Environment
 
-    - (option1) install the lib by pip (recommend)
+    - install the lib by pip (recommend)
 
         `
         pip install -r requirements.txt
         `
-
-    - (option2) We also prepare conda environment for you (if you use CUDA 10.0 and conda 4.8.3) : https://disk.pku.edu.cn:443/link/D613E493EE641184EB52C0C78DD846C8 . You can donwload it and unzip in your '/anaconda3/envs/'. 
-    
+ 
 2. Prepare the Datasets
 
     - download the CelebA datasets: 
